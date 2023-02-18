@@ -33,6 +33,7 @@ section{
   padding: 0 8%;
   font-size: 24px;
 }
+
 .hero-content > p{
   margin-top: 0;
   padding: 0 8%;
@@ -89,13 +90,11 @@ section{
   font-weight: 700;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
 .example::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
