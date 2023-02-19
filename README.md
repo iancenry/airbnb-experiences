@@ -1,11 +1,11 @@
 
-#AirBnb Experience Built With React. 
+# AirBnb Experience Built With React. 
 ![airbnb](https://user-images.githubusercontent.com/77986239/219976623-deb01798-fff0-462e-b34c-3fd29a1746f4.PNG)
 
 
-##Quick Setup
-Fork then clone the project into local machine 🍴
-run 'npm install' in the root folder to install all the necessary packages 👩‍💻
+## Quick Setup
+Fork then clone the project into local machine 🍴\
+run 'npm install' in the root folder to install all the necessary packages 👩‍💻\
 Happy coding 💻
 
 **NB:**
@@ -47,9 +47,14 @@ Happy coding 💻
     
          />
      ```
+     
+     
+     
      [x] Similar to the one above just using the spread operator which will spread all the props of the object into separate properties
+     	```js
         <Card 
             key={item.id}
 	    {...myObject}     
     
          />
+	```
