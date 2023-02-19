@@ -35,7 +35,7 @@ Happy coding 💻
 1. Passing objects as props\
 - Passing each object item one at a time; ok if props are not many\
     
-        ```js
+        ```jsx
         <Card 
             key={item.id}
             img ={require(`./images/${myObject.coverImg}`)}   
