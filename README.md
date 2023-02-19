@@ -51,10 +51,12 @@ Happy coding 💻
      
      [x] Similar to the one above just using the spread operator which will spread all the props of the object into separate properties
      
+
+     
      ```js
-        <Card 
+	<Card 
             key={item.id}
 	    {...myObject}     
     
         />
-     ```
+	```
