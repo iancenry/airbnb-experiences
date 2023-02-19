@@ -33,7 +33,7 @@ Happy coding 💻
 	}
 	```
 1. Passing objects as props\
-- [] Passing each object item one at a time; ok if props are not many\
+- Passing each object item one at a time; ok if props are not many\
     
         ```js
         <Card 
@@ -49,9 +49,7 @@ Happy coding 💻
          />
         ```      
      
-   -  [x] Similar to the one above just using the spread operator which will spread all the props of the object into separate properties
-     
-
+- Similar to the one above just using the spread operator which will spread all the props of the object into separate properties\
      
         ```js
 	<Card 
